@@ -1,0 +1,172 @@
+/*
+The whole project stylessheet in sequence
+1. The main part of the HTML file - header, body, footer & headings
+*/
+header {
+    background-color: #66666649;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+    text-transform: lowercase;
+}
+
+body {
+    background-color: #b3b3b3;
+    font-size: 80%;
+    margin: 4%;
+    text-align:left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #2787ea;
+    text-align: center;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+    font-size: large;
+}
+
+nav {
+    font-variant: small-caps;
+    font-size: 100%;
+    font-family: arial, 'Times New Roman', serif;
+}
+
+p{
+    text-align: justify;
+    font-size: small;
+}
+
+h4{
+    background: #00b7ea;
+}
+section {
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+}
+
+img {
+    width: 150px;
+}
+a:link{
+    color: #2787ea;
+    text-transform: lowercase;
+    line-height: 60%;
+    text-decoration: none;
+    word-spacing: 50%;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color: black;
+}
+a:focus {
+    color: blue;
+}
+a:active{
+    color: white;
+}
+
+
+p {
+    margin-bottom: 24px;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+a {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    color: #0087cc;
+    padding-left: 22px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7b29;
+}
+
+/*
+Stylesheet for the about page containing a various links to download - pdf, word doc, image, audio & video
+*/
+
+a[href$=".pdf"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/pdf.png");
+}
+
+a[href$=".doc"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/doc.png");
+}
+
+a[href$=".jpg"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/image.png");
+}
+
+a[href$=".mp3"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/audio.png");
+}
+
+a[href$=".mp4"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/video.png");
+}
+
+/*
+The table for the shops
+*/
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 6px 15px;
+}
+
+th {
+    background: #42444e;
+    color: #fff;
+    text-align: left;
+}
+
+tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+
+td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+
+td:first-child {
+    border-left: 1px solid #c6c9cc;
+}
+
+tr:nth-child(even) td {
+    background: #eaeaed;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
